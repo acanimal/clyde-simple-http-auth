@@ -35,7 +35,7 @@ All requests are authenticated using basic auth:
   "prefilters" : [
     {
       "id" : "basic-auth",
-      "path" : "simple-http-auth",
+      "path" : "clyde-simple-http-auth",
       "config" : {
         "realm" : "clyde",
         "method" : "basic",
@@ -64,7 +64,7 @@ Only the requests addresses to the provider are authenticated with digest method
       "prefilters" : [
         {
           "id" : "digest-auth",
-          "path" : "simple-http-auth",
+          "path" : "clyde-simple-http-auth",
           "config" : {
             "realm" : "clyde",
             "method" : "digest",
