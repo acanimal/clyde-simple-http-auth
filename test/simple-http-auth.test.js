@@ -5,7 +5,7 @@ var path = require("path"),
     request = require("request"),
     expect = require("chai").expect,
     http = require("http"),
-    clyde = require("clyde");
+    clyde = require("clydeio");
 
 
 describe("simple-http-auth", function() {
