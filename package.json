@@ -1,10 +1,10 @@
 {
-  "author": "Antonio Santiago <asantiagop@gmail.com> (http://acuriousanimal.com/blog)",
+  "author": "Antonio Santiago <asantiagop@gmail.com> (http://acuriousanimal.com)",
   "name": "clydeio-simple-http-auth",
-  "homepage": "https://github.com/clydeio/clyde-simple-http-auth",
+  "homepage": "https://github.com/clydeio/clydeio-simple-http-auth",
   "description": "Simple HTTP authentication (basic/digest) filter for Clyde API gateway.",
   "keywords": [
-    "clyde",
+    "clydeio",
     "filter",
     "authentication",
     "http",
@@ -14,7 +14,7 @@
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/clydeio/clyde-simple-http-auth.git"
+    "url": "https://github.com/clydeio/clydeio-simple-http-auth.git"
   },
   "main": "./lib/index.js",
   "directories": {

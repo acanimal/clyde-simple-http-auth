@@ -4,16 +4,22 @@ HTTP authentication filter for [Clyde](https://github.com/acanimal/clyde) API ga
 
 > Implementation is based on on [passport-http](https://github.com/jaredhanson/passport-http) module.
 
-<!-- MarkdownTOC -->
+<!-- TOC depth:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Configuration](#configuration)
-  - [Examples](#examples)
-    - [Configured as global prefilter](#configured-as-global-prefilter)
-    - [Configured as provider prefilter](#configured-as-provider-prefilter)
-  - [Notes](#notes)
+- [Simple HTTP Authentication Filter](#simple-http-authentication-filter)
+	- [Installation](#installation)
+	- [Configuration](#configuration)
+	- [Examples](#examples)
+		- [Configured as global prefilter](#configured-as-global-prefilter)
+		- [Configured as provider prefilter](#configured-as-provider-prefilter)
+	- [Notes](#notes)
 - [License](#license)
 
-<!-- /MarkdownTOC -->
+<!-- /TOC -->
+
+## Installation
+
+`npm install clydeio-simple-http-auth --save`
 
 ## Configuration
 
@@ -35,7 +41,7 @@ All requests are authenticated using basic auth:
   "prefilters" : [
     {
       "id" : "basic-auth",
-      "path" : "clyde-simple-http-auth",
+      "path" : "clydeio-simple-http-auth",
       "config" : {
         "realm" : "clyde",
         "method" : "basic",
@@ -64,7 +70,7 @@ Only the requests addresses to the provider are authenticated with digest method
       "prefilters" : [
         {
           "id" : "digest-auth",
-          "path" : "clyde-simple-http-auth",
+          "path" : "clydeio-simple-http-auth",
           "config" : {
             "realm" : "clyde",
             "method" : "digest",
